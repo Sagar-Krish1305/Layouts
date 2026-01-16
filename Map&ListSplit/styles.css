@@ -1,0 +1,234 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body{
+  height: 100%;
+  overflow: hidden;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}   
+
+/* Navbar */
+
+.navbar{
+    height: 3rem;
+    width: 100%;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-button{
+    height: 2rem;
+    width: 8rem;
+    background-color: black;
+    border-radius: 0.25rem;
+    margin-right: 1rem;
+}
+
+.search-bar{
+    height: 3rem;
+    width: 40rem;
+    background-color: rgb(224, 224, 224);
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}   
+
+.empty-space{
+    flex: 1 1 0;
+}
+
+.avatar{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(224, 224, 224);
+    border-radius: 1rem;
+    margin-left: 1rem;
+}  
+
+/* Main Section */
+.main-section{
+    flex: 1 1 0;
+    display: flex;
+    overflow: hidden; 
+}
+
+
+/* Sidebar */
+.sidebar{
+    width: 50%;
+    /* flex: 1 1 0; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Buttons */
+
+.buttons{
+    height: 3rem;
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(224, 224, 224);;
+}   
+
+.button1, .button2, .button3{
+    width: 6rem;
+    height: 100%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 1rem;
+}
+
+/* List Split */
+.list-split{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.25rem;
+    overflow: auto;
+    overflow-y: hidden;
+    flex: 1 1 0;
+}
+
+.card{
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.card:hover{
+    background-color: rgb(247, 247, 247);;
+}
+
+.card-image{
+    width: 18rem;
+    height: 12rem;
+    background-color: rgb(224, 224, 224);;
+    border-radius: 1rem;
+    flex-shrink: 0;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+
+    flex: 1 1 0%;
+}
+
+.subtitle{
+    height: 1rem;
+    width: 30%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+}
+.title{
+    height: 1.5rem;
+    width: 75%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+}
+.description{
+    height: 1rem;
+    width: 50%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+}
+.amount{
+    margin-top: auto;
+    height: 1.5rem;
+    width: 6rem;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+}
+/* Map */
+.map{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+
+.plus-button{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+
+    top: 1rem;
+    left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.minus-button{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+
+    top: 4.5rem;
+    left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.location1{
+    position: absolute;
+    top: 5rem;
+    left: 8rem;
+    height: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.location2{
+    position: absolute;
+    top: 10rem;
+    right: 12rem;
+    height: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.location3{
+    position: absolute;
+    left: 12rem;
+    bottom: 2rem;
+    height: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.location4{
+    position: absolute;
+    right: 8rem;
+    bottom: 0;
+    height: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+
+
